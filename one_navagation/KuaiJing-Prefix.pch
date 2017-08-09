@@ -1,0 +1,70 @@
+//
+//  KuaiJing-Prefix.pch
+//  KuaiJing
+//
+//  Created by 丁玉松 on 15/6/22.
+//  Copyright (c) 2015年 Beijng Yingyan Internet Co., Ltd. All rights reserved.
+//
+
+
+#ifndef KuaiJing_KuaiJing_Prefix_pch
+#define KuaiJing_KuaiJing_Prefix_pch
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "PrefixHeader.h"     
+
+#define TESTBUILD 1
+
+
+//libs
+#import "UIImageView+WebCache.h"
+#import "AFNetworking.h"
+#import <MJExtension/MJExtension.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <ReactiveCocoa/ReactiveCocoa-umbrella.h>
+
+#import "DXAlertView.h"
+#import "MJRefresh.h"
+#import "SDCycleScrollView.h"
+#import "ZLPhoto.h"
+
+//宏定义
+
+#import "HttpHelp.h"         //网络强求
+#import "AppPromptsMicro.h"  //appKey
+#import "WBSkinDefine.h"     //宏皮肤
+
+//类拓展
+#import "UIColor+WB.h"
+#import "UIView+Extension.h"
+#import "NSArray+WB.h"
+#import "UIButton+layer.h"
+#import "UIColor+WB.h"
+#import "UIFont+WB.h"
+#import "UIImage+WB.h"
+#import "UIView+Extension.h"
+#import "UIView+WhenTappedBlocks.h"
+
+//枚举
+#import "WBEnum.h"
+
+//打印
+#import "DYLog.h"
+
+//hud,tips
+#import "HUD.h"
+#import "Tips.h"
+
+//方法
+#import "KJSizeOfString.h"   //根据文字计算最大高度
+#import "CalculateUtil.h"    //时间
+#import "KJHtmlFilter.h"     //html标签过滤
+#import "MyDefaults.h"       //userdefaults
+#import "PhoneEmailCardId.h" //验证手机号邮箱身份证号正则
+
+
+#endif /* KuaiJing-Prefix_pch */
+#endif
