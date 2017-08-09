@@ -33,6 +33,7 @@
                    @"天气预报画虚线",
                    @"未定"
                    ];
+    NSLog(@"11");
 }
 
 -(void)selectIndex:(NSInteger)row
