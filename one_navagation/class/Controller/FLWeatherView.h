@@ -17,7 +17,10 @@ static CGFloat const weatherHeight = weatherLineHeight + weatherPiontR*2;
 
 static CGFloat const PI = 3.14592654;
 
-@interface Weather : UIView
+
+
+
+@interface FLWeatherView : UIView
 
 //温度数组
 @property(nonatomic,strong)NSArray<NSString *> *array;

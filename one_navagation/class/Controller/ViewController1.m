@@ -12,13 +12,11 @@
 #import "ClickAndSelectPhoto.h"
 #import "ZLPhoto.h"
 #import "ViewController5.h"
+#import "ViewController6.h"
+@interface ViewController1 ()<UITableViewDelegate,UITableViewDataSource>
 
-@interface ViewController1 ()<UINavigationControllerDelegate,UIImagePickerControllerDelegate>
-
-
-@property(nonatomic,strong)UIButton *btn;
-
-@property (nonatomic,strong)ClickAndSelectPhoto *photos;
+@property (nonatomic,strong)UITableView *tableView;
+@property (nonatomic,strong)NSArray *array;
 
 @end
 
@@ -26,63 +24,62 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view addSubview:self.btn];
-    self.view.backgroundColor = [UIColor redColor];
-    [self.btn addTarget:self action:@selector(clickbtn) forControlEvents:UIControlEventTouchUpInside];
+    [self.tableView reloadData];
     
     
-    
-    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 64, 100, 100)];
-
-//    UIBezierPath *path = [UIBezierPath bezierPath];
-//    [path moveToPoint:point1];
-//    [path addLineToPoint:point2];
-//    [path addLineToPoint:point3];
-    
-    
-    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
-    shapeLayer.frame = CGRectMake(0, 0, 100, 100);
-    shapeLayer.strokeEnd = 0.7f;
-    shapeLayer.strokeStart = 0.1f;
-    shapeLayer.path = path.CGPath;
-    shapeLayer.fillColor = [UIColor clearColor].CGColor;
-    shapeLayer.lineWidth = 2.0f;
-    shapeLayer.strokeColor = [UIColor blueColor].CGColor;
-    
-    [self.view.layer addSublayer:shapeLayer];
- 
-    
-
-
-    
+    self.array = @[
+                   @"自定义UICollectionViewFlowLayout",
+                   @"天气预报画虚线"
+                   ];
 }
 
-
-
-- (void)clickbtn
+-(void)selectIndex:(NSInteger)row
 {
-    [self.navigationController pushViewController:[[ViewController5 alloc]init] animated:YES];
-}
+    switch (row) {
+        case 0:
+            [self.navigationController pushViewController:[[ViewController5 alloc]init] animated:YES];
+            break;
+        case 1:
+            [self.navigationController pushViewController:[[ViewController6 alloc]init] animated:YES];
 
-
--(UIButton *)btn
-{
-    if (_btn == nil) {
-        _btn = [UIButton cornerButton:4.0f
-                                 font:15.0f
-                              bgColor:[UIColor redColor]
-                           boderColor:[UIColor blueColor]
-                           boderWight:1.0f
-                                title:@"hehe"];
-        _btn.frame = CGRectMake(100, 100, 100, 100);
-        
+            break;
     }
-    return _btn;
 }
 
 
 
 
 
+
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self selectIndex:indexPath.row];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.array.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (cell == nil) {
+        cell =[[UITableViewCell alloc]initWithStyle:0 reuseIdentifier:@"cell"];
+        cell.textLabel.font = [UIFont systemFontOfSize:14.0f];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
+    cell.textLabel.text = self.array[indexPath.row];
+    return cell;
+}
+
+-(UITableView *)tableView{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.frame];
+        _tableView.delegate =self;
+        _tableView.dataSource = self;
+        _tableView.rowHeight = 40;
+        [self.view addSubview:_tableView];
+    }
+    return _tableView;
+}
 
 @end

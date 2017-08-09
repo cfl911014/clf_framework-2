@@ -7,11 +7,8 @@
 //
 
 #import "ViewController4.h"
-#import "Weather.h"
 @interface ViewController4 ()
 
-@property(nonatomic,strong)NSArray *array;
-@property(nonatomic,strong)Weather *weather;
 
 @end
 
@@ -19,24 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.view.backgroundColor = [UIColor blackColor];
-    [self.view addSubview:self.weather];
-}
-
--(NSArray *)array{
-    if (!_array) {
-        _array = @[@"37",@"31",@"36",@"33",@"37",@"27"];
-    }
-    return _array;
-}
-
--(Weather *)weather{
-    if (!_weather) {
-        _weather = [[Weather alloc]initWithFrame:CGRectMake(0, 100, ScreenWidth, 40)];
-        _weather.array = self.array;
-    }
-    return _weather;
 }
 
 

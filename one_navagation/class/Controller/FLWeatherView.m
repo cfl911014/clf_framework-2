@@ -6,11 +6,11 @@
 //  Copyright © 2017年 mac. All rights reserved.
 //
 
-#import "Weather.h"
+#import "FLWeatherView.h"
 
 
 
-@implementation Weather
+@implementation FLWeatherView
 
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
