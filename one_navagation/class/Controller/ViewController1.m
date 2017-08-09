@@ -7,13 +7,8 @@
 //
 
 #import "ViewController1.h"
-#import "ViewController2.h"
-#import "ZLPhotoPickerCollectionView.h"
-#import "ClickAndSelectPhoto.h"
-#import "ZLPhoto.h"
-#import "ViewControllers0.h"
-#import "ViewControllers1.h"
-#import "ViewControllers2.h"
+
+
 @interface ViewController1 ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong)UITableView *tableView;
@@ -28,12 +23,29 @@
     [self.tableView reloadData];
     
     
+    
+    
+    
     self.array = @[
                    @"自定义UICollectionViewFlowLayout",
                    @"天气预报画虚线",
+                   @"未定",
+                   @"未定",
+                   @"未定",
+                   @"未定",
+                   @"未定",
+                   @"未定",
+                   @"未定",
                    @"未定"
                    ];
-    NSLog(@"11");
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 -(void)selectIndex:(NSInteger)row
