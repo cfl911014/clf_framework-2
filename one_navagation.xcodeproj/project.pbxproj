@@ -72,12 +72,13 @@
 		04E670141D7EA98D003A0696 /* ClickAndSelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E670131D7EA98D003A0696 /* ClickAndSelectPhoto.m */; };
 		04E670801D7EADCF003A0696 /* YYIHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6707F1D7EADCF003A0696 /* YYIHttpHelper.m */; };
 		04E670861D7EC65E003A0696 /* NODadaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E670851D7EC65E003A0696 /* NODadaView.m */; };
-		BA182B401F3981F100A49A5D /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B3F1F3981F100A49A5D /* ViewController5.m */; };
+		BA182B401F3981F100A49A5D /* ViewControllers0.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B3F1F3981F100A49A5D /* ViewControllers0.m */; };
 		BA182B441F39822A00A49A5D /* CollectionViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B431F39822A00A49A5D /* CollectionViewCell1.m */; };
 		BA182B471F39823400A49A5D /* CollectionViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B461F39823400A49A5D /* CollectionViewCell2.m */; };
 		BA182B4A1F39860E00A49A5D /* FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B491F39860E00A49A5D /* FlowLayout.m */; };
 		BA182B4D1F39B18C00A49A5D /* FLWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B4C1F39B18C00A49A5D /* FLWeatherView.m */; };
-		BA182B571F3B08A800A49A5D /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B561F3B08A800A49A5D /* ViewController6.m */; };
+		BA182B571F3B08A800A49A5D /* ViewControllers1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B561F3B08A800A49A5D /* ViewControllers1.m */; };
+		BA182B5B1F3B170B00A49A5D /* ViewControllers2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B5A1F3B170B00A49A5D /* ViewControllers2.m */; };
 		BA194E761F2B25E80016F7E5 /* Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = BA194E751F2B25E80016F7E5 /* Attributed.m */; };
 		BA3141F71F3022850019733E /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3141F61F3022850019733E /* CExpandHeader.m */; };
 		BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89324C1F15EDED007529E1 /* TimeClass.m */; };
@@ -259,8 +260,8 @@
 		04E670851D7EC65E003A0696 /* NODadaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NODadaView.m; sourceTree = "<group>"; };
 		33734DAC6A0F477D93855DD4 /* Pods_one_navagation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_one_navagation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		344D09F542270565BB855135 /* Pods-one_navagation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_navagation.release.xcconfig"; path = "Pods/Target Support Files/Pods-one_navagation/Pods-one_navagation.release.xcconfig"; sourceTree = "<group>"; };
-		BA182B3E1F3981F100A49A5D /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
-		BA182B3F1F3981F100A49A5D /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		BA182B3E1F3981F100A49A5D /* ViewControllers0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers0.h; sourceTree = "<group>"; };
+		BA182B3F1F3981F100A49A5D /* ViewControllers0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers0.m; sourceTree = "<group>"; };
 		BA182B421F39822A00A49A5D /* CollectionViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell1.h; sourceTree = "<group>"; };
 		BA182B431F39822A00A49A5D /* CollectionViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell1.m; sourceTree = "<group>"; };
 		BA182B451F39823400A49A5D /* CollectionViewCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell2.h; sourceTree = "<group>"; };
@@ -269,8 +270,10 @@
 		BA182B491F39860E00A49A5D /* FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayout.m; sourceTree = "<group>"; };
 		BA182B4B1F39B18C00A49A5D /* FLWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLWeatherView.h; sourceTree = "<group>"; };
 		BA182B4C1F39B18C00A49A5D /* FLWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLWeatherView.m; sourceTree = "<group>"; };
-		BA182B551F3B08A800A49A5D /* ViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController6.h; sourceTree = "<group>"; };
-		BA182B561F3B08A800A49A5D /* ViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController6.m; sourceTree = "<group>"; };
+		BA182B551F3B08A800A49A5D /* ViewControllers1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers1.h; sourceTree = "<group>"; };
+		BA182B561F3B08A800A49A5D /* ViewControllers1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers1.m; sourceTree = "<group>"; };
+		BA182B591F3B170B00A49A5D /* ViewControllers2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers2.h; sourceTree = "<group>"; };
+		BA182B5A1F3B170B00A49A5D /* ViewControllers2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers2.m; sourceTree = "<group>"; };
 		BA194E741F2B25E80016F7E5 /* Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attributed.h; sourceTree = "<group>"; };
 		BA194E751F2B25E80016F7E5 /* Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attributed.m; sourceTree = "<group>"; };
 		BA3141F51F3022850019733E /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
@@ -495,6 +498,7 @@
 				04E66F2E1D7E79B7003A0696 /* ViewController4.m */,
 				BA182B411F3981F700A49A5D /* collectionView自定义flow */,
 				BA182B511F3B03FE00A49A5D /* 天气预报画虚线 */,
+				BA182B581F3B170100A49A5D /* New Group */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -732,8 +736,8 @@
 		BA182B411F3981F700A49A5D /* collectionView自定义flow */ = {
 			isa = PBXGroup;
 			children = (
-				BA182B3E1F3981F100A49A5D /* ViewController5.h */,
-				BA182B3F1F3981F100A49A5D /* ViewController5.m */,
+				BA182B3E1F3981F100A49A5D /* ViewControllers0.h */,
+				BA182B3F1F3981F100A49A5D /* ViewControllers0.m */,
 				BA182B421F39822A00A49A5D /* CollectionViewCell1.h */,
 				BA182B431F39822A00A49A5D /* CollectionViewCell1.m */,
 				BA182B451F39823400A49A5D /* CollectionViewCell2.h */,
@@ -747,12 +751,21 @@
 		BA182B511F3B03FE00A49A5D /* 天气预报画虚线 */ = {
 			isa = PBXGroup;
 			children = (
-				BA182B551F3B08A800A49A5D /* ViewController6.h */,
-				BA182B561F3B08A800A49A5D /* ViewController6.m */,
+				BA182B551F3B08A800A49A5D /* ViewControllers1.h */,
+				BA182B561F3B08A800A49A5D /* ViewControllers1.m */,
 				BA182B4B1F39B18C00A49A5D /* FLWeatherView.h */,
 				BA182B4C1F39B18C00A49A5D /* FLWeatherView.m */,
 			);
 			name = "天气预报画虚线";
+			sourceTree = "<group>";
+		};
+		BA182B581F3B170100A49A5D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				BA182B591F3B170B00A49A5D /* ViewControllers2.h */,
+				BA182B5A1F3B170B00A49A5D /* ViewControllers2.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		BA89324A1F15EDD8007529E1 /* Time */ = {
@@ -1156,11 +1169,12 @@
 				04E66F8A1D7E7B3F003A0696 /* TAAnimatedDotView.m in Sources */,
 				04E66F0E1D7E7891003A0696 /* RootNavigationController.m in Sources */,
 				BA182B441F39822A00A49A5D /* CollectionViewCell1.m in Sources */,
+				BA182B5B1F3B170B00A49A5D /* ViewControllers2.m in Sources */,
 				BAF670E71D8EA71C00D5B119 /* ZLPhotoPickerDatas.m in Sources */,
 				BAF670EA1D8EA71C00D5B119 /* ZLNavigationController.m in Sources */,
 				04E66F981D7E81DC003A0696 /* KJFirstUserViewController.m in Sources */,
 				04E66F831D7E7B3F003A0696 /* UIView+MJExtension.m in Sources */,
-				BA182B401F3981F100A49A5D /* ViewController5.m in Sources */,
+				BA182B401F3981F100A49A5D /* ViewControllers0.m in Sources */,
 				04E670141D7EA98D003A0696 /* ClickAndSelectPhoto.m in Sources */,
 				04E66ECE1D7E6EE5003A0696 /* main.m in Sources */,
 				04E66F891D7E7B3F003A0696 /* TAAbstractDotView.m in Sources */,
@@ -1178,7 +1192,7 @@
 				BAF670E11D8EA71C00D5B119 /* ZLPhotoPickerBrowserViewController.m in Sources */,
 				04E66F821D7E7B3F003A0696 /* UIScrollView+MJRefresh.m in Sources */,
 				042F92DF1DBF47AD0083F19B /* YYIHttpDownloadHelp.m in Sources */,
-				BA182B571F3B08A800A49A5D /* ViewController6.m in Sources */,
+				BA182B571F3B08A800A49A5D /* ViewControllers1.m in Sources */,
 				BAF670DF1D8EA71C00D5B119 /* ZLPhotoRect.m in Sources */,
 				04E66F291D7E7995003A0696 /* ViewController2.m in Sources */,
 				04E66FD01D7E91B0003A0696 /* UIView+Extension.m in Sources */,

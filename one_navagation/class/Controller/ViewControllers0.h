@@ -11,7 +11,7 @@
 #import "CollectionViewCell2.h"
 #import "FlowLayout.h"
 
-@interface ViewController5 : RootViewController
+@interface ViewControllers0 : RootViewController
 
 
 

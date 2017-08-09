@@ -6,13 +6,13 @@
 //  Copyright © 2017年 mac. All rights reserved.
 //
 
-#import "ViewController5.h"
+#import "ViewControllers0.h"
 
-@interface ViewController5 ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+@interface ViewControllers0 ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property(nonatomic,strong)UICollectionView *collectionView;
 @end
 
-@implementation ViewController5
+@implementation ViewControllers0
 
 - (void)viewDidLoad {
     [super viewDidLoad];

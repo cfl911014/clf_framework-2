@@ -11,8 +11,9 @@
 #import "ZLPhotoPickerCollectionView.h"
 #import "ClickAndSelectPhoto.h"
 #import "ZLPhoto.h"
-#import "ViewController5.h"
-#import "ViewController6.h"
+#import "ViewControllers0.h"
+#import "ViewControllers1.h"
+#import "ViewControllers2.h"
 @interface ViewController1 ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong)UITableView *tableView;
@@ -29,20 +30,17 @@
     
     self.array = @[
                    @"自定义UICollectionViewFlowLayout",
-                   @"天气预报画虚线"
+                   @"天气预报画虚线",
+                   @"未定"
                    ];
 }
 
 -(void)selectIndex:(NSInteger)row
 {
-    switch (row) {
-        case 0:
-            [self.navigationController pushViewController:[[ViewController5 alloc]init] animated:YES];
-            break;
-        case 1:
-            [self.navigationController pushViewController:[[ViewController6 alloc]init] animated:YES];
-
-            break;
+    NSString* className =[NSString stringWithFormat:@"ViewControllers%lu",row];
+    UIViewController *c =[[NSClassFromString(className) alloc]init];
+    if (c) {
+        [self.navigationController pushViewController:c animated:YES];
     }
 }
 

@@ -6,10 +6,10 @@
 //  Copyright © 2017年 mac. All rights reserved.
 //
 
-#import "ViewController6.h"
+#import "ViewControllers1.h"
 #import "FLWeatherView.h"
 
-@interface ViewController6 ()
+@interface ViewControllers1 ()
 
 @property(nonatomic,strong)NSArray *array;
 @property(nonatomic,strong)FLWeatherView *weather;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation ViewController6
+@implementation ViewControllers1
 
 - (void)viewDidLoad {
     [super viewDidLoad];
