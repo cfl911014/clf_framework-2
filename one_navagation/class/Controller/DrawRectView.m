@@ -57,6 +57,8 @@ static CGFloat const PI = 3.141592654;
     CGContextAddArcToPoint(context, 40, 150, 60, 140, 50);
     CGContextStrokePath(context);
     
+    
+    
     //画矩形
     CGContextSetLineWidth(context, 3);
     //方式1(画两个)
