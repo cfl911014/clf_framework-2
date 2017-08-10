@@ -15,8 +15,8 @@
     [super viewDidLoad];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
-    //[self.navigationBar setBarTintColor:[UIColor redColor]];
-    //[self.navigationBar setBackgroundImage:[UIImage imageNamed:@"kj_1"] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationBar setBarTintColor:[UIColor redColor]];
+    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"kj_1"] forBarMetrics:UIBarMetricsDefault];
     
     
     __block __weak RootNavigationController *weakSelf = self;

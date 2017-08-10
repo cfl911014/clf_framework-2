@@ -29,8 +29,8 @@
     self.array = @[
                    @"自定义UICollectionViewFlowLayout",
                    @"天气预报画虚线",
-                   @"未定",
-                   @"未定",
+                   @"UIView某一个角为圆角",
+                   @"DrawRect",
                    @"未定",
                    @"未定",
                    @"未定",

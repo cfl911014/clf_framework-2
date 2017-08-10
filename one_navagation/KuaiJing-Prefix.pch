@@ -25,6 +25,7 @@
 #import <MJExtension/MJExtension.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <ReactiveCocoa/ReactiveCocoa-umbrella.h>
+#import <Masonry/Masonry.h>
 
 #import "DXAlertView.h"
 #import "MJRefresh.h"
