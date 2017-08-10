@@ -86,7 +86,7 @@ static CGFloat const PI = 3.141592654;
     CGContextAddPath(ctx, path.CGPath);
     CGContextDrawPath(ctx, kCGPathEOFill);
     
-    NSLog(@"新功能开发完成");
+    NSLog(@"新功能开发完成啊");
 }
 
 @end
