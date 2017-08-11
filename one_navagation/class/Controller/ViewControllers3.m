@@ -2,7 +2,7 @@
 //  ViewControllers3.m
 //  one_navagation
 //
-//  Created by 崔付亮 on 2017/8/10.
+//  Created by 崔付亮 on 2017/8/11.
 //  Copyright © 2017年 mac. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 #import "DrawRectView.h"
 @interface ViewControllers3 ()
 
-@property(nonatomic,strong)DrawRectView * drawRectView;
+@property(nonatomic,strong)DrawRectView *drawRectView;
 
 @end
 
@@ -18,20 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.drawRectView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.right.bottom.mas_equalTo(0);
-    }];
+
+    self.drawRectView = [[DrawRectView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight)];
+    [self.view addSubview:self.drawRectView];
     
+
 }
-
--(DrawRectView *)drawRectView{
-    if (!_drawRectView) {
-        _drawRectView = [[DrawRectView alloc]init];
-        [self.view addSubview:_drawRectView];
-    }
-    return _drawRectView;
-}
-
-
 
 @end

@@ -79,8 +79,11 @@
 		BA182B4D1F39B18C00A49A5D /* FLWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B4C1F39B18C00A49A5D /* FLWeatherView.m */; };
 		BA182B571F3B08A800A49A5D /* ViewControllers1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B561F3B08A800A49A5D /* ViewControllers1.m */; };
 		BA182B5B1F3B170B00A49A5D /* ViewControllers2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B5A1F3B170B00A49A5D /* ViewControllers2.m */; };
-		BA182B5F1F3BF59900A49A5D /* ViewControllers3.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B5E1F3BF59900A49A5D /* ViewControllers3.m */; };
 		BA182B621F3BF5E100A49A5D /* DrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B611F3BF5E100A49A5D /* DrawRectView.m */; };
+		BA182B6B1F3D3FFC00A49A5D /* BlockUse.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B6A1F3D3FFC00A49A5D /* BlockUse.m */; };
+		BA182B6E1F3D40E100A49A5D /* ViewControllers3.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B6D1F3D40E100A49A5D /* ViewControllers3.m */; };
+		BA182B711F3D40F200A49A5D /* ViewControllers4.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B701F3D40F200A49A5D /* ViewControllers4.m */; };
+		BA182B741F3D46EA00A49A5D /* ViewControllers5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B731F3D46EA00A49A5D /* ViewControllers5.m */; };
 		BA194E761F2B25E80016F7E5 /* Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = BA194E751F2B25E80016F7E5 /* Attributed.m */; };
 		BA3141F71F3022850019733E /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3141F61F3022850019733E /* CExpandHeader.m */; };
 		BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89324C1F15EDED007529E1 /* TimeClass.m */; };
@@ -276,10 +279,16 @@
 		BA182B561F3B08A800A49A5D /* ViewControllers1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers1.m; sourceTree = "<group>"; };
 		BA182B591F3B170B00A49A5D /* ViewControllers2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers2.h; sourceTree = "<group>"; };
 		BA182B5A1F3B170B00A49A5D /* ViewControllers2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers2.m; sourceTree = "<group>"; };
-		BA182B5D1F3BF59900A49A5D /* ViewControllers3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers3.h; sourceTree = "<group>"; };
-		BA182B5E1F3BF59900A49A5D /* ViewControllers3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers3.m; sourceTree = "<group>"; };
 		BA182B601F3BF5E100A49A5D /* DrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectView.h; sourceTree = "<group>"; };
 		BA182B611F3BF5E100A49A5D /* DrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectView.m; sourceTree = "<group>"; };
+		BA182B691F3D3FFC00A49A5D /* BlockUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockUse.h; sourceTree = "<group>"; };
+		BA182B6A1F3D3FFC00A49A5D /* BlockUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockUse.m; sourceTree = "<group>"; };
+		BA182B6C1F3D40E100A49A5D /* ViewControllers3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers3.h; sourceTree = "<group>"; };
+		BA182B6D1F3D40E100A49A5D /* ViewControllers3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers3.m; sourceTree = "<group>"; };
+		BA182B6F1F3D40F200A49A5D /* ViewControllers4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers4.h; sourceTree = "<group>"; };
+		BA182B701F3D40F200A49A5D /* ViewControllers4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers4.m; sourceTree = "<group>"; };
+		BA182B721F3D46EA00A49A5D /* ViewControllers5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers5.h; sourceTree = "<group>"; };
+		BA182B731F3D46EA00A49A5D /* ViewControllers5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers5.m; sourceTree = "<group>"; };
 		BA194E741F2B25E80016F7E5 /* Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attributed.h; sourceTree = "<group>"; };
 		BA194E751F2B25E80016F7E5 /* Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attributed.m; sourceTree = "<group>"; };
 		BA3141F51F3022850019733E /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
@@ -506,6 +515,8 @@
 				BA182B511F3B03FE00A49A5D /* 天气预报画虚线 */,
 				BA182B581F3B170100A49A5D /* UIView某一个角为圆角 */,
 				BA182B5C1F3BF56B00A49A5D /* DrawRect */,
+				BA182B651F3D3F7800A49A5D /* Block */,
+				BA182B761F3D823E00A49A5D /* New Group */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -778,12 +789,32 @@
 		BA182B5C1F3BF56B00A49A5D /* DrawRect */ = {
 			isa = PBXGroup;
 			children = (
-				BA182B5D1F3BF59900A49A5D /* ViewControllers3.h */,
-				BA182B5E1F3BF59900A49A5D /* ViewControllers3.m */,
+				BA182B6C1F3D40E100A49A5D /* ViewControllers3.h */,
+				BA182B6D1F3D40E100A49A5D /* ViewControllers3.m */,
 				BA182B601F3BF5E100A49A5D /* DrawRectView.h */,
 				BA182B611F3BF5E100A49A5D /* DrawRectView.m */,
 			);
 			name = DrawRect;
+			sourceTree = "<group>";
+		};
+		BA182B651F3D3F7800A49A5D /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				BA182B6F1F3D40F200A49A5D /* ViewControllers4.h */,
+				BA182B701F3D40F200A49A5D /* ViewControllers4.m */,
+				BA182B691F3D3FFC00A49A5D /* BlockUse.h */,
+				BA182B6A1F3D3FFC00A49A5D /* BlockUse.m */,
+			);
+			name = Block;
+			sourceTree = "<group>";
+		};
+		BA182B761F3D823E00A49A5D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				BA182B721F3D46EA00A49A5D /* ViewControllers5.h */,
+				BA182B731F3D46EA00A49A5D /* ViewControllers5.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		BA89324A1F15EDD8007529E1 /* Time */ = {
@@ -1182,11 +1213,14 @@
 				04E66F7B1D7E7B3F003A0696 /* DXAlertView.m in Sources */,
 				04E66F7E1D7E7B3F003A0696 /* MJRefreshConst.m in Sources */,
 				BAF670EE1D8EA71C00D5B119 /* ZLPhotoPickerCollectionView.m in Sources */,
+				BA182B6B1F3D3FFC00A49A5D /* BlockUse.m in Sources */,
 				04E66F1A1D7E78F2003A0696 /* RootViewController.m in Sources */,
 				BAF670E51D8EA71C00D5B119 /* ZLPhotoPickerCustomToolBarView.m in Sources */,
 				04E66F8A1D7E7B3F003A0696 /* TAAnimatedDotView.m in Sources */,
 				04E66F0E1D7E7891003A0696 /* RootNavigationController.m in Sources */,
 				BA182B441F39822A00A49A5D /* CollectionViewCell1.m in Sources */,
+				BA182B6E1F3D40E100A49A5D /* ViewControllers3.m in Sources */,
+				BA182B711F3D40F200A49A5D /* ViewControllers4.m in Sources */,
 				BA182B5B1F3B170B00A49A5D /* ViewControllers2.m in Sources */,
 				BAF670E71D8EA71C00D5B119 /* ZLPhotoPickerDatas.m in Sources */,
 				BAF670EA1D8EA71C00D5B119 /* ZLNavigationController.m in Sources */,
@@ -1208,7 +1242,6 @@
 				BAF670E81D8EA71C00D5B119 /* ZLPhotoPickerGroup.m in Sources */,
 				BAF670F91D8EA7DB00D5B119 /* DACircularProgressView.m in Sources */,
 				BAF670E11D8EA71C00D5B119 /* ZLPhotoPickerBrowserViewController.m in Sources */,
-				BA182B5F1F3BF59900A49A5D /* ViewControllers3.m in Sources */,
 				04E66F821D7E7B3F003A0696 /* UIScrollView+MJRefresh.m in Sources */,
 				042F92DF1DBF47AD0083F19B /* YYIHttpDownloadHelp.m in Sources */,
 				BA182B571F3B08A800A49A5D /* ViewControllers1.m in Sources */,
@@ -1218,6 +1251,7 @@
 				04E66FEE1D7E9CE7003A0696 /* TQTextView.m in Sources */,
 				BA3141F71F3022850019733E /* CExpandHeader.m in Sources */,
 				BA182B621F3BF5E100A49A5D /* DrawRectView.m in Sources */,
+				BA182B741F3D46EA00A49A5D /* ViewControllers5.m in Sources */,
 				04E670031D7EA136003A0696 /* PhoneEmailCardId.m in Sources */,
 				04E66FCA1D7E91B0003A0696 /* NSArray+WB.m in Sources */,
 				04E66F7D1D7E7B3F003A0696 /* MJRefreshBaseView.m in Sources */,
