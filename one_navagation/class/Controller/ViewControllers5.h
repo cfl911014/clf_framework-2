@@ -1,5 +1,5 @@
 //
-//  ViewControllers3.h
+//  WKWebViewViewController.h
 //  one_navagation
 //
 //  Created by 崔付亮 on 2017/8/11.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewControllers3 : UIViewController
+@interface ViewControllers5 : UIViewController
 
 @end
