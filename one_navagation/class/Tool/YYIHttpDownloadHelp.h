@@ -20,6 +20,10 @@ typedef void (^DownloadCompletion)(void);
 @property (nonatomic,copy)DownloadProgress progress;
 @property (nonatomic,copy)DownloadCompletion completion;
 
+/** 同步文件的下载任务 */
+@property (nonatomic, strong) NSURLSessionDownloadTask *downloadTask;
+
+
 /**
 
  */

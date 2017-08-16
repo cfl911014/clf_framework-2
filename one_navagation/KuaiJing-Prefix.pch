@@ -26,6 +26,7 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <ReactiveCocoa/ReactiveCocoa-umbrella.h>
 #import <Masonry/Masonry.h>
+#import <YYKit/YYKit.h>
 
 #import "DXAlertView.h"
 #import "MJRefresh.h"

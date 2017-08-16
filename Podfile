@@ -11,5 +11,6 @@ target 'one_navagation' do
     pod 'FMDB', '~> 2.6.2'
     pod 'IQKeyboardManager'
     pod 'ReactiveViewModel', '~> 0.3'
+    pod 'YYKit'
 
 end

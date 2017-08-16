@@ -33,6 +33,9 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
@@ -43,6 +46,7 @@ DEPENDENCIES:
   - MJExtension (~> 3.0.10)
   - ReactiveViewModel (~> 0.3)
   - SDWebImage (~> 3.7.2)
+  - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
@@ -54,7 +58,8 @@ SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   ReactiveViewModel: 58918dcbcec2d3151195ab1ed9163c57a8163999
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 3e0238e359fdd8792937c6802bc957a13258795e
+PODFILE CHECKSUM: 39db5efecb30b19220d359f36be231bf162b561d
 
 COCOAPODS: 1.1.1

@@ -17,8 +17,6 @@
 
 /** NSURLSession */
 @property (nonatomic, strong) NSURLSession *session;
-/** 同步文件的下载任务 */
-@property (nonatomic, strong) NSURLSessionDownloadTask *downloadTask;
 
 @property (nonatomic, copy) NSString *savePathString;
 
