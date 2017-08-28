@@ -86,7 +86,13 @@
 		BA182B711F3D40F200A49A5D /* ViewControllers4.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B701F3D40F200A49A5D /* ViewControllers4.m */; };
 		BA182B741F3D46EA00A49A5D /* ViewControllers5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B731F3D46EA00A49A5D /* ViewControllers5.m */; };
 		BA194E761F2B25E80016F7E5 /* Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = BA194E751F2B25E80016F7E5 /* Attributed.m */; };
+		BA26AC1E1F53C36600437EEF /* ReactiveCocoaViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */; };
 		BA3141F71F3022850019733E /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3141F61F3022850019733E /* CExpandHeader.m */; };
+		BA4CFE751F4FA56300DEDE52 /* ViewControllers7.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */; };
+		BA4CFE781F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE771F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m */; };
+		BA4CFE7B1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE7A1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m */; };
+		BA4CFE7F1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE7D1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m */; };
+		BA4CFE801F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4CFE7E1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib */; };
 		BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89324C1F15EDED007529E1 /* TimeClass.m */; };
 		BAF670DC1D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670A21D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m */; };
 		BAF670DD1D8EA71C00D5B119 /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670A41D8EA71C00D5B119 /* UIView+ZLExtension.m */; };
@@ -294,8 +300,19 @@
 		BA182B731F3D46EA00A49A5D /* ViewControllers5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers5.m; sourceTree = "<group>"; };
 		BA194E741F2B25E80016F7E5 /* Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attributed.h; sourceTree = "<group>"; };
 		BA194E751F2B25E80016F7E5 /* Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attributed.m; sourceTree = "<group>"; };
+		BA26AC1C1F53C36600437EEF /* ReactiveCocoaViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController3.h; sourceTree = "<group>"; };
+		BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController3.m; sourceTree = "<group>"; };
 		BA3141F51F3022850019733E /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
 		BA3141F61F3022850019733E /* CExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExpandHeader.m; sourceTree = "<group>"; };
+		BA4CFE731F4FA56300DEDE52 /* ViewControllers7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers7.h; sourceTree = "<group>"; };
+		BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers7.m; sourceTree = "<group>"; };
+		BA4CFE761F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController0.h; sourceTree = "<group>"; };
+		BA4CFE771F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController0.m; sourceTree = "<group>"; };
+		BA4CFE791F4FAFF200DEDE52 /* ReactiveCocoaViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController1.h; sourceTree = "<group>"; };
+		BA4CFE7A1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController1.m; sourceTree = "<group>"; };
+		BA4CFE7C1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController2.h; sourceTree = "<group>"; };
+		BA4CFE7D1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController2.m; sourceTree = "<group>"; };
+		BA4CFE7E1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactiveCocoaViewController2.xib; sourceTree = "<group>"; };
 		BA89324B1F15EDED007529E1 /* TimeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClass.h; sourceTree = "<group>"; };
 		BA89324C1F15EDED007529E1 /* TimeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeClass.m; sourceTree = "<group>"; };
 		BAF670A11D8EA71C00D5B119 /* UIImage+ZLPhotoLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZLPhotoLib.h"; sourceTree = "<group>"; };
@@ -521,6 +538,7 @@
 				BA182B651F3D3F7800A49A5D /* Block */,
 				BA182B761F3D823E00A49A5D /* 动画 */,
 				BA14B8131F42C90A0024284F /* YYKit */,
+				BA4CFE721F4FA53D00DEDE52 /* ReactiveCocoa */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -830,6 +848,24 @@
 			name = "动画";
 			sourceTree = "<group>";
 		};
+		BA4CFE721F4FA53D00DEDE52 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				BA4CFE731F4FA56300DEDE52 /* ViewControllers7.h */,
+				BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */,
+				BA4CFE761F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.h */,
+				BA4CFE771F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m */,
+				BA4CFE791F4FAFF200DEDE52 /* ReactiveCocoaViewController1.h */,
+				BA4CFE7A1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m */,
+				BA4CFE7C1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.h */,
+				BA4CFE7D1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m */,
+				BA4CFE7E1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib */,
+				BA26AC1C1F53C36600437EEF /* ReactiveCocoaViewController3.h */,
+				BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */,
+			);
+			name = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
 		BA89324A1F15EDD8007529E1 /* Time */ = {
 			isa = PBXGroup;
 			children = (
@@ -1125,6 +1161,7 @@
 				04E66F7C1D7E7B3F003A0696 /* MJRefresh.bundle in Resources */,
 				04E670101D7EA4AC003A0696 /* FOLIOBC.TTF in Resources */,
 				04E66F781D7E7B3F003A0696 /* btn_close_normal@2x.png in Resources */,
+				BA4CFE801F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib in Resources */,
 				04E6700D1D7EA4AC003A0696 /* 37x-Checkmark.png in Resources */,
 				04E6700E1D7EA4AC003A0696 /* 37x-Checkmark@2x.png in Resources */,
 				04E670111D7EA4AC003A0696 /* 兰亭细黑 GBK.TTF in Resources */,
@@ -1210,6 +1247,7 @@
 				BAF670E41D8EA71C00D5B119 /* ZLPhotoPickerBrowserPhotoView.m in Sources */,
 				BAF670DD1D8EA71C00D5B119 /* UIView+ZLExtension.m in Sources */,
 				BAF670E61D8EA71C00D5B119 /* ZLPhotoAssets.m in Sources */,
+				BA4CFE751F4FA56300DEDE52 /* ViewControllers7.m in Sources */,
 				04E66F0A1D7E7821003A0696 /* AppDelegate.m in Sources */,
 				BAF670E31D8EA71C00D5B119 /* ZLPhotoPickerBrowserPhotoScrollView.m in Sources */,
 				04E66F2C1D7E79AA003A0696 /* TabbleViewController.m in Sources */,
@@ -1242,10 +1280,13 @@
 				04E66F831D7E7B3F003A0696 /* UIView+MJExtension.m in Sources */,
 				BA182B401F3981F100A49A5D /* ViewControllers0.m in Sources */,
 				04E670141D7EA98D003A0696 /* ClickAndSelectPhoto.m in Sources */,
+				BA26AC1E1F53C36600437EEF /* ReactiveCocoaViewController3.m in Sources */,
 				04E66ECE1D7E6EE5003A0696 /* main.m in Sources */,
 				04E66F891D7E7B3F003A0696 /* TAAbstractDotView.m in Sources */,
+				BA4CFE781F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m in Sources */,
 				04E66FC81D7E91B0003A0696 /* CalculateUtil.m in Sources */,
 				BA182B471F39823400A49A5D /* CollectionViewCell2.m in Sources */,
+				BA4CFE7F1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m in Sources */,
 				BA182B4D1F39B18C00A49A5D /* FLWeatherView.m in Sources */,
 				04E66FF41D7E9CF2003A0696 /* MyDefaults.m in Sources */,
 				BAF670ED1D8EA71C00D5B119 /* ZLPhotoPickerViewController.m in Sources */,
@@ -1265,6 +1306,7 @@
 				04E66FEE1D7E9CE7003A0696 /* TQTextView.m in Sources */,
 				BA3141F71F3022850019733E /* CExpandHeader.m in Sources */,
 				BA182B621F3BF5E100A49A5D /* DrawRectView.m in Sources */,
+				BA4CFE7B1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m in Sources */,
 				BA182B741F3D46EA00A49A5D /* ViewControllers5.m in Sources */,
 				04E670031D7EA136003A0696 /* PhoneEmailCardId.m in Sources */,
 				04E66FCA1D7E91B0003A0696 /* NSArray+WB.m in Sources */,

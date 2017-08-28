@@ -1,70 +1,48 @@
 //
-//  ViewController1.m
+//  ViewControllers7.m
 //  one_navagation
 //
-//  Created by mac  on 16/9/6.
-//  Copyright © 2016年 mac. All rights reserved.
+//  Created by 崔付亮 on 2017/8/25.
+//  Copyright © 2017年 mac. All rights reserved.
 //
 
-#import "ViewController1.h"
+#import "ViewControllers7.h"
 
+@interface ViewControllers7 ()<UITableViewDelegate,UITableViewDataSource>
 
-@interface ViewController1 ()<UITableViewDelegate,UITableViewDataSource>
-
-@property (nonatomic,strong)UITableView *tableView;
-@property (nonatomic,strong)NSArray *array;
+@property(nonatomic,strong)UITableView *tableView;
+@property(nonatomic,strong)NSArray *array;
 
 @end
 
-@implementation ViewController1
+@implementation ViewControllers7
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView reloadData];
     
-    
-    
-    
-    
     self.array = @[
-                   @"自定义UICollectionViewFlowLayout",
-                   @"天气预报画虚线",
-                   @"UIView某一个角为圆角",
-                   @"DrawRect",
-                   @"Block",
-                   @"动画",
-                   @"YYKit",
-                   @"ReactiveCocoa",
-                   @"未定",
-                   @"未定",
-                   @"未定",
-                   @"未定",
-                   @"未定"
+                   @"信号量 , RACCommand UIKit绑定",
+                   @"登录的实现",
+                   @"颜色选择器实例",
+                   @"定位实现"
                    ];
-    
-    
-    
-    
-    
+
     
     
     
 }
 
+
+
 -(void)selectIndex:(NSInteger)row
 {
-    NSString* className =[NSString stringWithFormat:@"ViewControllers%lu",row];
+    NSString* className =[NSString stringWithFormat:@"ReactiveCocoaViewController%lu",row];
     UIViewController *c =[[NSClassFromString(className) alloc]init];
     if (c) {
         [self.navigationController pushViewController:c animated:YES];
     }
 }
-
-
-
-
-
-
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [self selectIndex:indexPath.row];
@@ -94,5 +72,6 @@
     }
     return _tableView;
 }
+
 
 @end
