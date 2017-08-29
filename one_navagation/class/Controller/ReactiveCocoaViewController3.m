@@ -21,10 +21,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  
-}
--(void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
     [[[[[self authorizedSignal] filter:^BOOL(id value) {
         return [value boolValue];
     }] flattenMap:^RACStream *(id value){
@@ -49,6 +45,10 @@
     }] subscribeNext:^(id x) {
         NSLog(@"%@",x);
     }];
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+      [self.manager stopUpdatingLocation];
 }
 
 
