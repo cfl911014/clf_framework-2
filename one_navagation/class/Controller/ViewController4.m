@@ -9,6 +9,9 @@
 #import "ViewController4.h"
 @interface ViewController4 ()
 
+@property(nonatomic,strong) UILabel *label;
+@property(nonatomic,strong) UITextField *textField;
+
 
 @end
 
@@ -16,19 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.textField = [[UITextField alloc]initWithFrame:CGRectMake(0, 0, 100,100)];
+    self.textField.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.textField];
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

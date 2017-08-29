@@ -66,10 +66,39 @@
 //        return [RACSignal empty];
 //    }];
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*
+    FlatternMap和Map的区别
+    
+    1.FlatternMap中的Block返回信号。
+    2.Map中的Block返回对象。
+    3.开发中，如果信号发出的值不是信号，映射一般使用Map
+    4.开发中，如果信号发出的值是信号，映射一般使用FlatternMap。
+    */
+    
+    
+    
+    
+    
+    
    
     
     
 
 }
+
+
+
 
 @end

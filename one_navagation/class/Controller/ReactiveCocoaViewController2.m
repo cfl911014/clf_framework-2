@@ -35,6 +35,7 @@
     RACSignal *signalGreen =  [self blindSlider:self.greenSlider textFiled:self.greenTextfile];
     RACSignal *signalBlue = [self blindSlider:self.blueSlider textFiled:self.blueTextfile];
     
+
     [[[RACSignal combineLatest:@[signalRed,signalGreen,signalBlue]] map:^id(id value) {
         return  [UIColor colorWithRed:[value[0] floatValue] green:[value[1] floatValue]  blue:[value[2] floatValue] alpha:1.0f];
     }] subscribeNext:^(id x) {
@@ -55,7 +56,8 @@
         return [NSString stringWithFormat:@"%.2f",[value floatValue]];
     }] subscribe:textSignal];
     //返回一个新信号
-    return [[sliderSignal merge:textSignal] merge:signalText];
+    return [[sliderSignal merge:textSignal]merge:signalText];
 }
+
 
 @end

@@ -49,7 +49,6 @@
     }] subscribeNext:^(id x) {
         NSLog(@"%@",x);
     }];
-
 }
 
 
