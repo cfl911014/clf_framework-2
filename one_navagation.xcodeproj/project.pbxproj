@@ -87,6 +87,11 @@
 		BA182B741F3D46EA00A49A5D /* ViewControllers5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B731F3D46EA00A49A5D /* ViewControllers5.m */; };
 		BA194E761F2B25E80016F7E5 /* Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = BA194E751F2B25E80016F7E5 /* Attributed.m */; };
 		BA26AC1E1F53C36600437EEF /* ReactiveCocoaViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */; };
+		BA26AC261F57A55000437EEF /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC241F57A55000437EEF /* MyTableViewCell.m */; };
+		BA26AC271F57A55000437EEF /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA26AC251F57A55000437EEF /* MyTableViewCell.xib */; };
+		BA26AC2E1F57E67500437EEF /* ViewControllers9.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC2D1F57E67500437EEF /* ViewControllers9.m */; };
+		BA26AC311F57E6B500437EEF /* ViewControllers8.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC301F57E6B500437EEF /* ViewControllers8.m */; };
+		BA26AC341F57E96700437EEF /* DataSourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC331F57E96700437EEF /* DataSourceView.m */; };
 		BA3141F71F3022850019733E /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3141F61F3022850019733E /* CExpandHeader.m */; };
 		BA4CFE751F4FA56300DEDE52 /* ViewControllers7.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */; };
 		BA4CFE781F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE771F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m */; };
@@ -302,6 +307,15 @@
 		BA194E751F2B25E80016F7E5 /* Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attributed.m; sourceTree = "<group>"; };
 		BA26AC1C1F53C36600437EEF /* ReactiveCocoaViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController3.h; sourceTree = "<group>"; };
 		BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController3.m; sourceTree = "<group>"; };
+		BA26AC231F57A55000437EEF /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		BA26AC241F57A55000437EEF /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		BA26AC251F57A55000437EEF /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		BA26AC2C1F57E67500437EEF /* ViewControllers9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers9.h; sourceTree = "<group>"; };
+		BA26AC2D1F57E67500437EEF /* ViewControllers9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers9.m; sourceTree = "<group>"; };
+		BA26AC2F1F57E6B500437EEF /* ViewControllers8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers8.h; sourceTree = "<group>"; };
+		BA26AC301F57E6B500437EEF /* ViewControllers8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers8.m; sourceTree = "<group>"; };
+		BA26AC321F57E96700437EEF /* DataSourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceView.h; sourceTree = "<group>"; };
+		BA26AC331F57E96700437EEF /* DataSourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceView.m; sourceTree = "<group>"; };
 		BA3141F51F3022850019733E /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
 		BA3141F61F3022850019733E /* CExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExpandHeader.m; sourceTree = "<group>"; };
 		BA4CFE731F4FA56300DEDE52 /* ViewControllers7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers7.h; sourceTree = "<group>"; };
@@ -539,6 +553,8 @@
 				BA182B761F3D823E00A49A5D /* 动画 */,
 				BA14B8131F42C90A0024284F /* YYKit */,
 				BA4CFE721F4FA53D00DEDE52 /* ReactiveCocoa */,
+				BA26AC1F1F57A3BA00437EEF /* UITableView自适应高度 */,
+				BA26AC281F57E63200437EEF /* DataSource */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -846,6 +862,29 @@
 				BA182B731F3D46EA00A49A5D /* ViewControllers5.m */,
 			);
 			name = "动画";
+			sourceTree = "<group>";
+		};
+		BA26AC1F1F57A3BA00437EEF /* UITableView自适应高度 */ = {
+			isa = PBXGroup;
+			children = (
+				BA26AC2F1F57E6B500437EEF /* ViewControllers8.h */,
+				BA26AC301F57E6B500437EEF /* ViewControllers8.m */,
+				BA26AC231F57A55000437EEF /* MyTableViewCell.h */,
+				BA26AC241F57A55000437EEF /* MyTableViewCell.m */,
+				BA26AC251F57A55000437EEF /* MyTableViewCell.xib */,
+			);
+			name = "UITableView自适应高度";
+			sourceTree = "<group>";
+		};
+		BA26AC281F57E63200437EEF /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				BA26AC2C1F57E67500437EEF /* ViewControllers9.h */,
+				BA26AC2D1F57E67500437EEF /* ViewControllers9.m */,
+				BA26AC321F57E96700437EEF /* DataSourceView.h */,
+				BA26AC331F57E96700437EEF /* DataSourceView.m */,
+			);
+			name = DataSource;
 			sourceTree = "<group>";
 		};
 		BA4CFE721F4FA53D00DEDE52 /* ReactiveCocoa */ = {
@@ -1159,6 +1198,7 @@
 				04E66F771D7E7B3F003A0696 /* btn_close_normal.png in Resources */,
 				BAF670F31D8EA71C00D5B119 /* ZLPhotoLib.bundle in Resources */,
 				04E66F7C1D7E7B3F003A0696 /* MJRefresh.bundle in Resources */,
+				BA26AC271F57A55000437EEF /* MyTableViewCell.xib in Resources */,
 				04E670101D7EA4AC003A0696 /* FOLIOBC.TTF in Resources */,
 				04E66F781D7E7B3F003A0696 /* btn_close_normal@2x.png in Resources */,
 				BA4CFE801F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib in Resources */,
@@ -1260,6 +1300,7 @@
 				04E670801D7EADCF003A0696 /* YYIHttpHelper.m in Sources */,
 				BAF670EF1D8EA71C00D5B119 /* ZLPhotoPickerCollectionViewCell.m in Sources */,
 				04E66FFC1D7E9EBD003A0696 /* GHDropdownMenu.m in Sources */,
+				BA26AC341F57E96700437EEF /* DataSourceView.m in Sources */,
 				04E66F811D7E7B3F003A0696 /* UIScrollView+MJExtension.m in Sources */,
 				04E66F7B1D7E7B3F003A0696 /* DXAlertView.m in Sources */,
 				04E66F7E1D7E7B3F003A0696 /* MJRefreshConst.m in Sources */,
@@ -1268,6 +1309,7 @@
 				04E66F1A1D7E78F2003A0696 /* RootViewController.m in Sources */,
 				BAF670E51D8EA71C00D5B119 /* ZLPhotoPickerCustomToolBarView.m in Sources */,
 				04E66F8A1D7E7B3F003A0696 /* TAAnimatedDotView.m in Sources */,
+				BA26AC261F57A55000437EEF /* MyTableViewCell.m in Sources */,
 				04E66F0E1D7E7891003A0696 /* RootNavigationController.m in Sources */,
 				BA182B441F39822A00A49A5D /* CollectionViewCell1.m in Sources */,
 				BA182B6E1F3D40E100A49A5D /* ViewControllers3.m in Sources */,
@@ -1284,6 +1326,7 @@
 				04E66ECE1D7E6EE5003A0696 /* main.m in Sources */,
 				04E66F891D7E7B3F003A0696 /* TAAbstractDotView.m in Sources */,
 				BA4CFE781F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m in Sources */,
+				BA26AC311F57E6B500437EEF /* ViewControllers8.m in Sources */,
 				04E66FC81D7E91B0003A0696 /* CalculateUtil.m in Sources */,
 				BA182B471F39823400A49A5D /* CollectionViewCell2.m in Sources */,
 				BA4CFE7F1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m in Sources */,
@@ -1336,6 +1379,7 @@
 				04E66F8E1D7E7B3F003A0696 /* SDCycleScrollView.m in Sources */,
 				BAF670F01D8EA71C00D5B119 /* ZLPhotoPickerFooterCollectionReusableView.m in Sources */,
 				BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */,
+				BA26AC2E1F57E67500437EEF /* ViewControllers9.m in Sources */,
 				BA194E761F2B25E80016F7E5 /* Attributed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
