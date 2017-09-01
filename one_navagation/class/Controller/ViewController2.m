@@ -37,7 +37,6 @@
     [self.view.layer addSublayer:layer];
      CALayer *layer1 = self.view.layer.sublayers.firstObject;
     layer1.hidden = YES;
-   
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

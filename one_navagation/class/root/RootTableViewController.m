@@ -9,7 +9,6 @@
 #import "RootTableViewController.h"
 #import "MJRefresh.h"
 #import "NODadaView.h"
-#define KCELLDEFAULTHEIGHT 0
 
 @interface RootTableViewController ()
 
@@ -34,13 +33,10 @@
     [super viewDidLoad];
     
     self.pageIndex = 1;
-    self.pageSize = 10;
     self.showRefreshHeader = NO;
     self.showRefreshFooter = NO;
     self.showNoDataView = NO;
-    //self.footerViewFrame = self.tableView.frame;
     [self.view addSubview:self.tableView];
-    
 }
 
 
@@ -53,6 +49,7 @@
         _tableView = [[UITableView alloc]initWithFrame:self.view.frame];
         _tableView.delegate = self;
         _tableView.dataSource = self;
+        _tableView.estimatedRowHeight = 50.0f;
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     }
     return _tableView;
@@ -120,15 +117,20 @@
         }
     }
 }
+
 - (void)requstData{
     
 }
 
 - (void)headerRefresh{
-    
+    self.pageIndex = 1;
 }
 - (void)footerRefresh{
-    
+    self.pageIndex ++;
+}
+- (void)endRefresh{
+    [self.tableView headerEndRefreshing];
+    [self.tableView footerEndRefreshing];
 }
 
 - (void)setShowNoDataView:(BOOL)showNoDataView{
@@ -138,6 +140,7 @@
             self.tableView.tableFooterView = self.footerView;
         }
         else{
+            self.tableView.sectionFooterHeight = 0;
             self.tableView.tableFooterView = [[UIView alloc]init];
         }
     }
@@ -146,10 +149,6 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 0;
@@ -160,10 +159,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
-}
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return KCELLDEFAULTHEIGHT;
 }
 
 

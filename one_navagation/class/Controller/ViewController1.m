@@ -37,9 +37,9 @@
                    @"ReactiveCocoa",
                    @"UITableview自适应高度",
                    @"DataSource",
-                   @"未定",
-                   @"未定",
-                   @"未定"
+                   @"",
+                   @"",
+                   @""
                    ];
     
     
@@ -51,23 +51,14 @@
     
 }
 
--(void)selectIndex:(NSInteger)row
-{
-    NSString* className =[NSString stringWithFormat:@"ViewControllers%lu",row];
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString* className =[NSString stringWithFormat:@"ViewControllers%lu",indexPath.row];
     UIViewController *c =[[NSClassFromString(className) alloc]init];
     if (c) {
         [self.navigationController pushViewController:c animated:YES];
     }
-}
-
-
-
-
-
-
-
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [self selectIndex:indexPath.row];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

@@ -29,22 +29,4 @@ static CGFloat const PI = 3.14592654;
 -(instancetype)initWithFrame:(CGRect)frame;
 
 
-/*
- -(NSArray *)array{
- if (!_array) {
- _array = @[@"37",@"31",@"36",@"33",@"37",@"27"];
- }
- return _array;
- }
- 
- -(Weather *)weather{
- if (!_weather) {
- _weather = [[Weather alloc]initWithFrame:CGRectMake(0, 100, ScreenWidth, weatherHeight)];
- _weather.array = self.array;
- }
- return _weather;
- }
-
- */
-
 @end
