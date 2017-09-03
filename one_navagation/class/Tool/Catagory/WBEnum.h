@@ -2,8 +2,8 @@
 //  WBEnum.h
 //  Picasso
 //
-//  Created by 张玲玉 on 15/11/26.
-//  Copyright © 2015年 张玲玉. All rights reserved.
+//  Created by 崔付亮 on 15/11/26.
+//  Copyright © 2015年 崔付亮  All rights reserved.
 //
 
 #ifndef WBEnum_h
