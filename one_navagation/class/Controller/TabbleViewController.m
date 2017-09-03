@@ -16,24 +16,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-   
-    //注意这个的使用ScreenViewHeight
-    self.tableView.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
-    NSLog(@"%f",self.tableView.height);
-    self.tableView.backgroundColor =[UIColor blueColor];
-
-    self.footerViewHeight = ScreenViewHeight - 49;
-    self.showNoDataView = YES;
     
-   // [self performSelector:@selector(delays) withObject:nil afterDelay:5.0];
+    self.tableView.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
+    
+    [self headerBeginRefresh];
+    self.showRefreshHeader = YES;
+    self.showRefreshFooter = YES;
+    
+}
+
+-(void)requstData{
    
+    BOOL count  = NO;
+    if (count) {
+        self.showNoDataView = NO;
+    }else{
+        self.footerViewHeight = ScreenViewHeight - 49;
+        self.showNoDataView = YES;
+    }
+    NSLog(@"1");
+    [self endRefresh];
+    
 }
 
-
--(void)delays{
-    self.showNoDataView = NO;
-}
 
 
 @end

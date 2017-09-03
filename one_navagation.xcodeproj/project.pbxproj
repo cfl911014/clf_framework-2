@@ -72,6 +72,7 @@
 		04E670141D7EA98D003A0696 /* ClickAndSelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E670131D7EA98D003A0696 /* ClickAndSelectPhoto.m */; };
 		04E670801D7EADCF003A0696 /* YYIHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6707F1D7EADCF003A0696 /* YYIHttpHelper.m */; };
 		04E670861D7EC65E003A0696 /* NODadaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E670851D7EC65E003A0696 /* NODadaView.m */; };
+		BA14B8161F42C9790024284F /* ViewControllers6.m in Sources */ = {isa = PBXBuildFile; fileRef = BA14B8151F42C9790024284F /* ViewControllers6.m */; };
 		BA182B401F3981F100A49A5D /* ViewControllers0.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B3F1F3981F100A49A5D /* ViewControllers0.m */; };
 		BA182B441F39822A00A49A5D /* CollectionViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B431F39822A00A49A5D /* CollectionViewCell1.m */; };
 		BA182B471F39823400A49A5D /* CollectionViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B461F39823400A49A5D /* CollectionViewCell2.m */; };
@@ -85,7 +86,18 @@
 		BA182B711F3D40F200A49A5D /* ViewControllers4.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B701F3D40F200A49A5D /* ViewControllers4.m */; };
 		BA182B741F3D46EA00A49A5D /* ViewControllers5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA182B731F3D46EA00A49A5D /* ViewControllers5.m */; };
 		BA194E761F2B25E80016F7E5 /* Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = BA194E751F2B25E80016F7E5 /* Attributed.m */; };
+		BA26AC1E1F53C36600437EEF /* ReactiveCocoaViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */; };
+		BA26AC261F57A55000437EEF /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC241F57A55000437EEF /* MyTableViewCell.m */; };
+		BA26AC271F57A55000437EEF /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA26AC251F57A55000437EEF /* MyTableViewCell.xib */; };
+		BA26AC2E1F57E67500437EEF /* ViewControllers9.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC2D1F57E67500437EEF /* ViewControllers9.m */; };
+		BA26AC311F57E6B500437EEF /* ViewControllers8.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC301F57E6B500437EEF /* ViewControllers8.m */; };
+		BA26AC341F57E96700437EEF /* DataSourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC331F57E96700437EEF /* DataSourceView.m */; };
 		BA3141F71F3022850019733E /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3141F61F3022850019733E /* CExpandHeader.m */; };
+		BA4CFE751F4FA56300DEDE52 /* ViewControllers7.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */; };
+		BA4CFE781F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE771F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m */; };
+		BA4CFE7B1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE7A1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m */; };
+		BA4CFE7F1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE7D1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m */; };
+		BA4CFE801F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4CFE7E1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib */; };
 		BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89324C1F15EDED007529E1 /* TimeClass.m */; };
 		BAF670DC1D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670A21D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m */; };
 		BAF670DD1D8EA71C00D5B119 /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670A41D8EA71C00D5B119 /* UIView+ZLExtension.m */; };
@@ -265,6 +277,8 @@
 		04E670851D7EC65E003A0696 /* NODadaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NODadaView.m; sourceTree = "<group>"; };
 		33734DAC6A0F477D93855DD4 /* Pods_one_navagation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_one_navagation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		344D09F542270565BB855135 /* Pods-one_navagation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_navagation.release.xcconfig"; path = "Pods/Target Support Files/Pods-one_navagation/Pods-one_navagation.release.xcconfig"; sourceTree = "<group>"; };
+		BA14B8141F42C9790024284F /* ViewControllers6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers6.h; sourceTree = "<group>"; };
+		BA14B8151F42C9790024284F /* ViewControllers6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers6.m; sourceTree = "<group>"; };
 		BA182B3E1F3981F100A49A5D /* ViewControllers0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers0.h; sourceTree = "<group>"; };
 		BA182B3F1F3981F100A49A5D /* ViewControllers0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers0.m; sourceTree = "<group>"; };
 		BA182B421F39822A00A49A5D /* CollectionViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell1.h; sourceTree = "<group>"; };
@@ -291,8 +305,28 @@
 		BA182B731F3D46EA00A49A5D /* ViewControllers5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers5.m; sourceTree = "<group>"; };
 		BA194E741F2B25E80016F7E5 /* Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attributed.h; sourceTree = "<group>"; };
 		BA194E751F2B25E80016F7E5 /* Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attributed.m; sourceTree = "<group>"; };
+		BA26AC1C1F53C36600437EEF /* ReactiveCocoaViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController3.h; sourceTree = "<group>"; };
+		BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController3.m; sourceTree = "<group>"; };
+		BA26AC231F57A55000437EEF /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		BA26AC241F57A55000437EEF /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		BA26AC251F57A55000437EEF /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		BA26AC2C1F57E67500437EEF /* ViewControllers9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers9.h; sourceTree = "<group>"; };
+		BA26AC2D1F57E67500437EEF /* ViewControllers9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers9.m; sourceTree = "<group>"; };
+		BA26AC2F1F57E6B500437EEF /* ViewControllers8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers8.h; sourceTree = "<group>"; };
+		BA26AC301F57E6B500437EEF /* ViewControllers8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers8.m; sourceTree = "<group>"; };
+		BA26AC321F57E96700437EEF /* DataSourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceView.h; sourceTree = "<group>"; };
+		BA26AC331F57E96700437EEF /* DataSourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceView.m; sourceTree = "<group>"; };
 		BA3141F51F3022850019733E /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
 		BA3141F61F3022850019733E /* CExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExpandHeader.m; sourceTree = "<group>"; };
+		BA4CFE731F4FA56300DEDE52 /* ViewControllers7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers7.h; sourceTree = "<group>"; };
+		BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers7.m; sourceTree = "<group>"; };
+		BA4CFE761F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController0.h; sourceTree = "<group>"; };
+		BA4CFE771F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController0.m; sourceTree = "<group>"; };
+		BA4CFE791F4FAFF200DEDE52 /* ReactiveCocoaViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController1.h; sourceTree = "<group>"; };
+		BA4CFE7A1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController1.m; sourceTree = "<group>"; };
+		BA4CFE7C1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController2.h; sourceTree = "<group>"; };
+		BA4CFE7D1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController2.m; sourceTree = "<group>"; };
+		BA4CFE7E1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactiveCocoaViewController2.xib; sourceTree = "<group>"; };
 		BA89324B1F15EDED007529E1 /* TimeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClass.h; sourceTree = "<group>"; };
 		BA89324C1F15EDED007529E1 /* TimeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeClass.m; sourceTree = "<group>"; };
 		BAF670A11D8EA71C00D5B119 /* UIImage+ZLPhotoLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZLPhotoLib.h"; sourceTree = "<group>"; };
@@ -516,7 +550,11 @@
 				BA182B581F3B170100A49A5D /* UIView某一个角为圆角 */,
 				BA182B5C1F3BF56B00A49A5D /* DrawRect */,
 				BA182B651F3D3F7800A49A5D /* Block */,
-				BA182B761F3D823E00A49A5D /* New Group */,
+				BA182B761F3D823E00A49A5D /* 动画 */,
+				BA14B8131F42C90A0024284F /* YYKit */,
+				BA4CFE721F4FA53D00DEDE52 /* ReactiveCocoa */,
+				BA26AC1F1F57A3BA00437EEF /* UITableView自适应高度 */,
+				BA26AC281F57E63200437EEF /* DataSource */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -751,6 +789,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BA14B8131F42C90A0024284F /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA14B8141F42C9790024284F /* ViewControllers6.h */,
+				BA14B8151F42C9790024284F /* ViewControllers6.m */,
+			);
+			name = YYKit;
+			sourceTree = "<group>";
+		};
 		BA182B411F3981F700A49A5D /* collectionView自定义flow */ = {
 			isa = PBXGroup;
 			children = (
@@ -808,13 +855,54 @@
 			name = Block;
 			sourceTree = "<group>";
 		};
-		BA182B761F3D823E00A49A5D /* New Group */ = {
+		BA182B761F3D823E00A49A5D /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
 				BA182B721F3D46EA00A49A5D /* ViewControllers5.h */,
 				BA182B731F3D46EA00A49A5D /* ViewControllers5.m */,
 			);
-			name = "New Group";
+			name = "动画";
+			sourceTree = "<group>";
+		};
+		BA26AC1F1F57A3BA00437EEF /* UITableView自适应高度 */ = {
+			isa = PBXGroup;
+			children = (
+				BA26AC2F1F57E6B500437EEF /* ViewControllers8.h */,
+				BA26AC301F57E6B500437EEF /* ViewControllers8.m */,
+				BA26AC231F57A55000437EEF /* MyTableViewCell.h */,
+				BA26AC241F57A55000437EEF /* MyTableViewCell.m */,
+				BA26AC251F57A55000437EEF /* MyTableViewCell.xib */,
+			);
+			name = "UITableView自适应高度";
+			sourceTree = "<group>";
+		};
+		BA26AC281F57E63200437EEF /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				BA26AC2C1F57E67500437EEF /* ViewControllers9.h */,
+				BA26AC2D1F57E67500437EEF /* ViewControllers9.m */,
+				BA26AC321F57E96700437EEF /* DataSourceView.h */,
+				BA26AC331F57E96700437EEF /* DataSourceView.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		BA4CFE721F4FA53D00DEDE52 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				BA4CFE731F4FA56300DEDE52 /* ViewControllers7.h */,
+				BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */,
+				BA4CFE761F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.h */,
+				BA4CFE771F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m */,
+				BA4CFE791F4FAFF200DEDE52 /* ReactiveCocoaViewController1.h */,
+				BA4CFE7A1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m */,
+				BA4CFE7C1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.h */,
+				BA4CFE7D1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m */,
+				BA4CFE7E1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib */,
+				BA26AC1C1F53C36600437EEF /* ReactiveCocoaViewController3.h */,
+				BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */,
+			);
+			name = ReactiveCocoa;
 			sourceTree = "<group>";
 		};
 		BA89324A1F15EDD8007529E1 /* Time */ = {
@@ -1110,8 +1198,10 @@
 				04E66F771D7E7B3F003A0696 /* btn_close_normal.png in Resources */,
 				BAF670F31D8EA71C00D5B119 /* ZLPhotoLib.bundle in Resources */,
 				04E66F7C1D7E7B3F003A0696 /* MJRefresh.bundle in Resources */,
+				BA26AC271F57A55000437EEF /* MyTableViewCell.xib in Resources */,
 				04E670101D7EA4AC003A0696 /* FOLIOBC.TTF in Resources */,
 				04E66F781D7E7B3F003A0696 /* btn_close_normal@2x.png in Resources */,
+				BA4CFE801F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib in Resources */,
 				04E6700D1D7EA4AC003A0696 /* 37x-Checkmark.png in Resources */,
 				04E6700E1D7EA4AC003A0696 /* 37x-Checkmark@2x.png in Resources */,
 				04E670111D7EA4AC003A0696 /* 兰亭细黑 GBK.TTF in Resources */,
@@ -1197,6 +1287,7 @@
 				BAF670E41D8EA71C00D5B119 /* ZLPhotoPickerBrowserPhotoView.m in Sources */,
 				BAF670DD1D8EA71C00D5B119 /* UIView+ZLExtension.m in Sources */,
 				BAF670E61D8EA71C00D5B119 /* ZLPhotoAssets.m in Sources */,
+				BA4CFE751F4FA56300DEDE52 /* ViewControllers7.m in Sources */,
 				04E66F0A1D7E7821003A0696 /* AppDelegate.m in Sources */,
 				BAF670E31D8EA71C00D5B119 /* ZLPhotoPickerBrowserPhotoScrollView.m in Sources */,
 				04E66F2C1D7E79AA003A0696 /* TabbleViewController.m in Sources */,
@@ -1209,6 +1300,7 @@
 				04E670801D7EADCF003A0696 /* YYIHttpHelper.m in Sources */,
 				BAF670EF1D8EA71C00D5B119 /* ZLPhotoPickerCollectionViewCell.m in Sources */,
 				04E66FFC1D7E9EBD003A0696 /* GHDropdownMenu.m in Sources */,
+				BA26AC341F57E96700437EEF /* DataSourceView.m in Sources */,
 				04E66F811D7E7B3F003A0696 /* UIScrollView+MJExtension.m in Sources */,
 				04E66F7B1D7E7B3F003A0696 /* DXAlertView.m in Sources */,
 				04E66F7E1D7E7B3F003A0696 /* MJRefreshConst.m in Sources */,
@@ -1217,6 +1309,7 @@
 				04E66F1A1D7E78F2003A0696 /* RootViewController.m in Sources */,
 				BAF670E51D8EA71C00D5B119 /* ZLPhotoPickerCustomToolBarView.m in Sources */,
 				04E66F8A1D7E7B3F003A0696 /* TAAnimatedDotView.m in Sources */,
+				BA26AC261F57A55000437EEF /* MyTableViewCell.m in Sources */,
 				04E66F0E1D7E7891003A0696 /* RootNavigationController.m in Sources */,
 				BA182B441F39822A00A49A5D /* CollectionViewCell1.m in Sources */,
 				BA182B6E1F3D40E100A49A5D /* ViewControllers3.m in Sources */,
@@ -1225,13 +1318,18 @@
 				BAF670E71D8EA71C00D5B119 /* ZLPhotoPickerDatas.m in Sources */,
 				BAF670EA1D8EA71C00D5B119 /* ZLNavigationController.m in Sources */,
 				04E66F981D7E81DC003A0696 /* KJFirstUserViewController.m in Sources */,
+				BA14B8161F42C9790024284F /* ViewControllers6.m in Sources */,
 				04E66F831D7E7B3F003A0696 /* UIView+MJExtension.m in Sources */,
 				BA182B401F3981F100A49A5D /* ViewControllers0.m in Sources */,
 				04E670141D7EA98D003A0696 /* ClickAndSelectPhoto.m in Sources */,
+				BA26AC1E1F53C36600437EEF /* ReactiveCocoaViewController3.m in Sources */,
 				04E66ECE1D7E6EE5003A0696 /* main.m in Sources */,
 				04E66F891D7E7B3F003A0696 /* TAAbstractDotView.m in Sources */,
+				BA4CFE781F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m in Sources */,
+				BA26AC311F57E6B500437EEF /* ViewControllers8.m in Sources */,
 				04E66FC81D7E91B0003A0696 /* CalculateUtil.m in Sources */,
 				BA182B471F39823400A49A5D /* CollectionViewCell2.m in Sources */,
+				BA4CFE7F1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m in Sources */,
 				BA182B4D1F39B18C00A49A5D /* FLWeatherView.m in Sources */,
 				04E66FF41D7E9CF2003A0696 /* MyDefaults.m in Sources */,
 				BAF670ED1D8EA71C00D5B119 /* ZLPhotoPickerViewController.m in Sources */,
@@ -1251,6 +1349,7 @@
 				04E66FEE1D7E9CE7003A0696 /* TQTextView.m in Sources */,
 				BA3141F71F3022850019733E /* CExpandHeader.m in Sources */,
 				BA182B621F3BF5E100A49A5D /* DrawRectView.m in Sources */,
+				BA4CFE7B1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m in Sources */,
 				BA182B741F3D46EA00A49A5D /* ViewControllers5.m in Sources */,
 				04E670031D7EA136003A0696 /* PhoneEmailCardId.m in Sources */,
 				04E66FCA1D7E91B0003A0696 /* NSArray+WB.m in Sources */,
@@ -1280,6 +1379,7 @@
 				04E66F8E1D7E7B3F003A0696 /* SDCycleScrollView.m in Sources */,
 				BAF670F01D8EA71C00D5B119 /* ZLPhotoPickerFooterCollectionReusableView.m in Sources */,
 				BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */,
+				BA26AC2E1F57E67500437EEF /* ViewControllers9.m in Sources */,
 				BA194E761F2B25E80016F7E5 /* Attributed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
