@@ -3,7 +3,7 @@
 //  Picasso
 //
 //  Created by wanglc on 15/12/15.
-//  Copyright © 2015年 张玲玉. All rights reserved.
+//  Copyright © 2015年  崔付亮 . All rights reserved.
 //
 
 #import "UIFont+WB.h"
