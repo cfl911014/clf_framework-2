@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/cuifuliang/Desktop/clf_framework 2/one_navagation/class/Controller/BulletManager.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/cuifuliang/Desktop/clf_framework 2/one_navagation/class/Controller/BulletManager.m">
+   </FileRef>
+   <FileRef
       location = "group:one_navagation.xcodeproj">
    </FileRef>
    <FileRef

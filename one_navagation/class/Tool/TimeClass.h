@@ -29,7 +29,7 @@
 +(NSString*)getStartDateToDate:(int)differ withDate:(NSDate*)date;
 +(NSDate*)getDateFromString:(NSString*)dateString;
 +(NSString*)getStringFromDate:(NSDate*)date;
-+ (NSString *)currentDateDescription;
++(NSString *)currentDateDescription;
 +(NSDateComponents*)getDateComponentFromDate:(NSDate*)date;
 
 @end

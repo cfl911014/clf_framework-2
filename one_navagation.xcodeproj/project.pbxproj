@@ -93,11 +93,16 @@
 		BA26AC311F57E6B500437EEF /* ViewControllers8.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC301F57E6B500437EEF /* ViewControllers8.m */; };
 		BA26AC341F57E96700437EEF /* DataSourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26AC331F57E96700437EEF /* DataSourceView.m */; };
 		BA3141F71F3022850019733E /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3141F61F3022850019733E /* CExpandHeader.m */; };
+		BA37BACF1F60EA04006D16E4 /* ViewControllers10.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37BACE1F60EA04006D16E4 /* ViewControllers10.m */; };
+		BA37BAD31F60F1D7006D16E4 /* ViewControllers11.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37BAD21F60F1D7006D16E4 /* ViewControllers11.m */; };
 		BA4CFE751F4FA56300DEDE52 /* ViewControllers7.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */; };
 		BA4CFE781F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE771F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.m */; };
 		BA4CFE7B1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE7A1F4FAFF200DEDE52 /* ReactiveCocoaViewController1.m */; };
 		BA4CFE7F1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CFE7D1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m */; };
 		BA4CFE801F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4CFE7E1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib */; };
+		BA8178691F90544100F45A3C /* ViewControllers12.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8178681F90544100F45A3C /* ViewControllers12.m */; };
+		BA81786C1F9055D800F45A3C /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81786B1F9055D800F45A3C /* BulletView.m */; };
+		BA81786F1F9055EC00F45A3C /* BulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81786D1F9055EC00F45A3C /* BulletManager.m */; };
 		BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89324C1F15EDED007529E1 /* TimeClass.m */; };
 		BAF670DC1D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670A21D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m */; };
 		BAF670DD1D8EA71C00D5B119 /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670A41D8EA71C00D5B119 /* UIView+ZLExtension.m */; };
@@ -318,6 +323,10 @@
 		BA26AC331F57E96700437EEF /* DataSourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceView.m; sourceTree = "<group>"; };
 		BA3141F51F3022850019733E /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
 		BA3141F61F3022850019733E /* CExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExpandHeader.m; sourceTree = "<group>"; };
+		BA37BACD1F60EA04006D16E4 /* ViewControllers10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers10.h; sourceTree = "<group>"; };
+		BA37BACE1F60EA04006D16E4 /* ViewControllers10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers10.m; sourceTree = "<group>"; };
+		BA37BAD11F60F1D7006D16E4 /* ViewControllers11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers11.h; sourceTree = "<group>"; };
+		BA37BAD21F60F1D7006D16E4 /* ViewControllers11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers11.m; sourceTree = "<group>"; };
 		BA4CFE731F4FA56300DEDE52 /* ViewControllers7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers7.h; sourceTree = "<group>"; };
 		BA4CFE741F4FA56300DEDE52 /* ViewControllers7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers7.m; sourceTree = "<group>"; };
 		BA4CFE761F4FAE8F00DEDE52 /* ReactiveCocoaViewController0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController0.h; sourceTree = "<group>"; };
@@ -327,6 +336,12 @@
 		BA4CFE7C1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController2.h; sourceTree = "<group>"; };
 		BA4CFE7D1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController2.m; sourceTree = "<group>"; };
 		BA4CFE7E1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactiveCocoaViewController2.xib; sourceTree = "<group>"; };
+		BA8178671F90544100F45A3C /* ViewControllers12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllers12.h; sourceTree = "<group>"; };
+		BA8178681F90544100F45A3C /* ViewControllers12.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllers12.m; sourceTree = "<group>"; };
+		BA81786A1F9055D800F45A3C /* BulletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletView.h; sourceTree = "<group>"; };
+		BA81786B1F9055D800F45A3C /* BulletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
+		BA81786D1F9055EC00F45A3C /* BulletManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BulletManager.m; path = "/Users/cuifuliang/Desktop/clf_framework 2/one_navagation/class/Controller/BulletManager.m"; sourceTree = "<absolute>"; };
+		BA81786E1F9055EC00F45A3C /* BulletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BulletManager.h; path = "/Users/cuifuliang/Desktop/clf_framework 2/one_navagation/class/Controller/BulletManager.h"; sourceTree = "<absolute>"; };
 		BA89324B1F15EDED007529E1 /* TimeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClass.h; sourceTree = "<group>"; };
 		BA89324C1F15EDED007529E1 /* TimeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeClass.m; sourceTree = "<group>"; };
 		BAF670A11D8EA71C00D5B119 /* UIImage+ZLPhotoLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZLPhotoLib.h"; sourceTree = "<group>"; };
@@ -555,6 +570,9 @@
 				BA4CFE721F4FA53D00DEDE52 /* ReactiveCocoa */,
 				BA26AC1F1F57A3BA00437EEF /* UITableView自适应高度 */,
 				BA26AC281F57E63200437EEF /* DataSource */,
+				BA37BACC1F60E9EC006D16E4 /* convertRect */,
+				BA37BAD01F60F1BB006D16E4 /* 拖拽 */,
+				BA8178661F90542C00F45A3C /* 弹幕 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -887,6 +905,24 @@
 			name = DataSource;
 			sourceTree = "<group>";
 		};
+		BA37BACC1F60E9EC006D16E4 /* convertRect */ = {
+			isa = PBXGroup;
+			children = (
+				BA37BACD1F60EA04006D16E4 /* ViewControllers10.h */,
+				BA37BACE1F60EA04006D16E4 /* ViewControllers10.m */,
+			);
+			name = convertRect;
+			sourceTree = "<group>";
+		};
+		BA37BAD01F60F1BB006D16E4 /* 拖拽 */ = {
+			isa = PBXGroup;
+			children = (
+				BA37BAD11F60F1D7006D16E4 /* ViewControllers11.h */,
+				BA37BAD21F60F1D7006D16E4 /* ViewControllers11.m */,
+			);
+			name = "拖拽";
+			sourceTree = "<group>";
+		};
 		BA4CFE721F4FA53D00DEDE52 /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
@@ -903,6 +939,19 @@
 				BA26AC1D1F53C36600437EEF /* ReactiveCocoaViewController3.m */,
 			);
 			name = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		BA8178661F90542C00F45A3C /* 弹幕 */ = {
+			isa = PBXGroup;
+			children = (
+				BA8178671F90544100F45A3C /* ViewControllers12.h */,
+				BA8178681F90544100F45A3C /* ViewControllers12.m */,
+				BA81786A1F9055D800F45A3C /* BulletView.h */,
+				BA81786B1F9055D800F45A3C /* BulletView.m */,
+				BA81786E1F9055EC00F45A3C /* BulletManager.h */,
+				BA81786D1F9055EC00F45A3C /* BulletManager.m */,
+			);
+			name = "弹幕";
 			sourceTree = "<group>";
 		};
 		BA89324A1F15EDD8007529E1 /* Time */ = {
@@ -1297,6 +1346,7 @@
 				04E66FE41D7E9B02003A0696 /* gistfile1.m in Sources */,
 				BAF670F21D8EA71C00D5B119 /* ZLPhotoPickerImageView.m in Sources */,
 				BAF670E91D8EA71C00D5B119 /* UIViewController+Alert.m in Sources */,
+				BA8178691F90544100F45A3C /* ViewControllers12.m in Sources */,
 				04E670801D7EADCF003A0696 /* YYIHttpHelper.m in Sources */,
 				BAF670EF1D8EA71C00D5B119 /* ZLPhotoPickerCollectionViewCell.m in Sources */,
 				04E66FFC1D7E9EBD003A0696 /* GHDropdownMenu.m in Sources */,
@@ -1329,6 +1379,7 @@
 				BA26AC311F57E6B500437EEF /* ViewControllers8.m in Sources */,
 				04E66FC81D7E91B0003A0696 /* CalculateUtil.m in Sources */,
 				BA182B471F39823400A49A5D /* CollectionViewCell2.m in Sources */,
+				BA37BAD31F60F1D7006D16E4 /* ViewControllers11.m in Sources */,
 				BA4CFE7F1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m in Sources */,
 				BA182B4D1F39B18C00A49A5D /* FLWeatherView.m in Sources */,
 				04E66FF41D7E9CF2003A0696 /* MyDefaults.m in Sources */,
@@ -1355,6 +1406,7 @@
 				04E66FCA1D7E91B0003A0696 /* NSArray+WB.m in Sources */,
 				04E66F7D1D7E7B3F003A0696 /* MJRefreshBaseView.m in Sources */,
 				BAF670E01D8EA71C00D5B119 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */,
+				BA81786C1F9055D800F45A3C /* BulletView.m in Sources */,
 				04E66F8B1D7E7B3F003A0696 /* TADotView.m in Sources */,
 				04E66F7F1D7E7B3F003A0696 /* MJRefreshFooterView.m in Sources */,
 				BA182B4A1F39860E00A49A5D /* FlowLayout.m in Sources */,
@@ -1370,6 +1422,7 @@
 				04E66FF81D7E9E3D003A0696 /* XHPEdgeInsetsButton.m in Sources */,
 				04E66FCB1D7E91B0003A0696 /* UIButton+layer.m in Sources */,
 				BAF670DE1D8EA71C00D5B119 /* ZLPhotoPickerBrowserPhoto.m in Sources */,
+				BA81786F1F9055EC00F45A3C /* BulletManager.m in Sources */,
 				04E66F8D1D7E7B3F003A0696 /* SDCollectionViewCell.m in Sources */,
 				04E66FF11D7E9CED003A0696 /* KJHtmlFilter.m in Sources */,
 				04E670001D7E9F5D003A0696 /* NSString+MD5.m in Sources */,
@@ -1379,6 +1432,7 @@
 				04E66F8E1D7E7B3F003A0696 /* SDCycleScrollView.m in Sources */,
 				BAF670F01D8EA71C00D5B119 /* ZLPhotoPickerFooterCollectionReusableView.m in Sources */,
 				BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */,
+				BA37BACF1F60EA04006D16E4 /* ViewControllers10.m in Sources */,
 				BA26AC2E1F57E67500437EEF /* ViewControllers9.m in Sources */,
 				BA194E761F2B25E80016F7E5 /* Attributed.m in Sources */,
 			);
