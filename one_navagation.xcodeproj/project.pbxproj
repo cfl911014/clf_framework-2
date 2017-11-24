@@ -104,6 +104,8 @@
 		BA81786C1F9055D800F45A3C /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81786B1F9055D800F45A3C /* BulletView.m */; };
 		BA81786F1F9055EC00F45A3C /* BulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81786D1F9055EC00F45A3C /* BulletManager.m */; };
 		BA89324D1F15EDED007529E1 /* TimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89324C1F15EDED007529E1 /* TimeClass.m */; };
+		BA8D1C9D1FC7F3A5008D1B5F /* ViewControllers13.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8D1C9C1FC7F3A5008D1B5F /* ViewControllers13.m */; };
+		BA8D1CA31FC7F441008D1B5F /* YSLoopBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8D1CA21FC7F441008D1B5F /* YSLoopBanner.m */; };
 		BAF670DC1D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670A21D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m */; };
 		BAF670DD1D8EA71C00D5B119 /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670A41D8EA71C00D5B119 /* UIView+ZLExtension.m */; };
 		BAF670DE1D8EA71C00D5B119 /* ZLPhotoPickerBrowserPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF670AB1D8EA71C00D5B119 /* ZLPhotoPickerBrowserPhoto.m */; };
@@ -344,6 +346,10 @@
 		BA81786E1F9055EC00F45A3C /* BulletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BulletManager.h; path = "/Users/cuifuliang/Desktop/clf_framework 2/one_navagation/class/Controller/BulletManager.h"; sourceTree = "<absolute>"; };
 		BA89324B1F15EDED007529E1 /* TimeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClass.h; sourceTree = "<group>"; };
 		BA89324C1F15EDED007529E1 /* TimeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeClass.m; sourceTree = "<group>"; };
+		BA8D1C9B1FC7F3A5008D1B5F /* ViewControllers13.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllers13.h; sourceTree = "<group>"; };
+		BA8D1C9C1FC7F3A5008D1B5F /* ViewControllers13.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllers13.m; sourceTree = "<group>"; };
+		BA8D1CA11FC7F441008D1B5F /* YSLoopBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSLoopBanner.h; sourceTree = "<group>"; };
+		BA8D1CA21FC7F441008D1B5F /* YSLoopBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSLoopBanner.m; sourceTree = "<group>"; };
 		BAF670A11D8EA71C00D5B119 /* UIImage+ZLPhotoLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZLPhotoLib.h"; sourceTree = "<group>"; };
 		BAF670A21D8EA71C00D5B119 /* UIImage+ZLPhotoLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZLPhotoLib.m"; sourceTree = "<group>"; };
 		BAF670A31D8EA71C00D5B119 /* UIView+ZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLExtension.h"; sourceTree = "<group>"; };
@@ -573,6 +579,7 @@
 				BA37BACC1F60E9EC006D16E4 /* convertRect */,
 				BA37BAD01F60F1BB006D16E4 /* 拖拽 */,
 				BA8178661F90542C00F45A3C /* 弹幕 */,
+				BA8D1C921FC7F32D008D1B5F /* 轮播 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -961,6 +968,17 @@
 				BA89324C1F15EDED007529E1 /* TimeClass.m */,
 			);
 			name = Time;
+			sourceTree = "<group>";
+		};
+		BA8D1C921FC7F32D008D1B5F /* 轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				BA8D1C9B1FC7F3A5008D1B5F /* ViewControllers13.h */,
+				BA8D1C9C1FC7F3A5008D1B5F /* ViewControllers13.m */,
+				BA8D1CA11FC7F441008D1B5F /* YSLoopBanner.h */,
+				BA8D1CA21FC7F441008D1B5F /* YSLoopBanner.m */,
+			);
+			name = "轮播";
 			sourceTree = "<group>";
 		};
 		BAF6709D1D8EA71C00D5B119 /* ZLPhotoLib */ = {
@@ -1381,6 +1399,7 @@
 				BA182B471F39823400A49A5D /* CollectionViewCell2.m in Sources */,
 				BA37BAD31F60F1D7006D16E4 /* ViewControllers11.m in Sources */,
 				BA4CFE7F1F4FBDBE00DEDE52 /* ReactiveCocoaViewController2.m in Sources */,
+				BA8D1CA31FC7F441008D1B5F /* YSLoopBanner.m in Sources */,
 				BA182B4D1F39B18C00A49A5D /* FLWeatherView.m in Sources */,
 				04E66FF41D7E9CF2003A0696 /* MyDefaults.m in Sources */,
 				BAF670ED1D8EA71C00D5B119 /* ZLPhotoPickerViewController.m in Sources */,
@@ -1388,6 +1407,7 @@
 				04E66F1D1D7E7904003A0696 /* RootTableViewController.m in Sources */,
 				04E66F8C1D7E7B3F003A0696 /* TAPageControl.m in Sources */,
 				04E670861D7EC65E003A0696 /* NODadaView.m in Sources */,
+				BA8D1C9D1FC7F3A5008D1B5F /* ViewControllers13.m in Sources */,
 				BAF670E81D8EA71C00D5B119 /* ZLPhotoPickerGroup.m in Sources */,
 				BAF670F91D8EA7DB00D5B119 /* DACircularProgressView.m in Sources */,
 				BAF670E11D8EA71C00D5B119 /* ZLPhotoPickerBrowserViewController.m in Sources */,
